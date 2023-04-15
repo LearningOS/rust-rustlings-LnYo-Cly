@@ -1,19 +1,18 @@
-// options3.rs
-// Execute `rustlings hint options3` or use the `hint` watch subcommand for a hint.
+// primitive_types1.rs
+// Fill in the rest of the line that has code missing!
+// No hints, there's no tricks, just get used to typing these :)
 
-// I AM NOT DONE
-
-struct Point {
-    x: i32,
-    y: i32,
-}
 
 fn main() {
-    let y: Option<Point> = Some(Point { x: 100, y: 200 });
+    // Booleans (`bool`)
 
-    match y {
-        Some(p) => println!("Co-ordinates are {},{} ", p.x, p.y),
-        _ => println!("no match"),
+    let is_morning = true;
+    if is_morning {
+        println!("Good morning!");
     }
-    y; // Fix without deleting this line.
+
+    let is_evening = true;// Finish the rest of this line like the example! Or make it be false!
+    if is_evening {
+        println!("Good evening!");
+    }
 }
